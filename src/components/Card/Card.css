@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #222;
+    color: white;
+}
+
+.card-container {
+    width: 17em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #303030;
+    padding: 1em;
+    padding-left: 1.5em;
+    border-radius: 0.5em;
+}
+
+.card-container:hover {
+    background-color: #333333;
+    cursor: pointer;
+}
+
+
+.card-img {
+    height: 15em;
+    width: 15em;
+    margin-left: -0.5em;
+}
+
+.card-img, h1, p {
+    margin-bottom: 0.5em;
+}
